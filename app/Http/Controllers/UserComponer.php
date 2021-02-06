@@ -7,5 +7,16 @@ use Illuminate\Http\Request;
 
 class Controller extends BaseController
 {
-    public
+    public function index()
+    {
+
+    }
+    public function store()
+    {
+        
+    }
+    public function destroy()
+    {
+        
+    }
 }
