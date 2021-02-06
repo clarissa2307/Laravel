@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'UserController@index'); 
+Route::post('user', 'UserController@store')->name('user.store');
+Route::delate('user/(user)', 'UserController@destroy')->name('user.destroy');
